@@ -19,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="https://github.com/gii-is-psg2/psg2-2425-g5-3">
+            Ver el repositorio
           </Link>
         </div>
       </div>
