@@ -88,7 +88,7 @@ function Contributor({Image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img src={Image} style={{width: '45%',height:'45%'}}role="img" />
+        <img src={Image} className={styles.contributor} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -98,9 +98,9 @@ function Contributor({Image, title, description}) {
   );
 }
 
-export default function HomepageFeatures() {
+export default function HomepageContributors() {
   return (
-    <section className={styles.features}>
+    <section className={styles.contributors}>
       <div className="container">
         <div className="row">
           {ContributorList.map((props, idx) => (
