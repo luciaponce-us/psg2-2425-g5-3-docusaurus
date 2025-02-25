@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunka=self.webpackChunka||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/psg2-2425-g5-3-docusaurus/blog","blogTitle":"Blog","authorsListPath":"/psg2-2425-g5-3-docusaurus/blog/authors"}')}}]);

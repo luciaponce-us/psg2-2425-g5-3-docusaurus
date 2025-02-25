@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunka=self.webpackChunka||[]).push([[4062],{720:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/psg2-2425-g5-3-docusaurus/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
