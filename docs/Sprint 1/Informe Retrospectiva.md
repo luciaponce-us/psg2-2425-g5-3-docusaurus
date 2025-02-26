@@ -1,5 +1,5 @@
 ---
-title: Retrospectiva
+title: PRUEBA DE CAMBIO
 slug: /sprint1/sprint-retrospectiva
 sidebar_position: 3
 ---
