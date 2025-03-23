@@ -1,8 +1,3 @@
----
-title: Calendario Niko-Niko
-slug: /sprint2/niko-niko
----
-
 ## Calendario Niko-Niko
 
 El **Calendario Niko-Niko** es una herramienta visual diseñada para registrar el estado de ánimo de los miembros de un equipo de trabajo a lo largo del tiempo. Su objetivo principal es identificar patrones emocionales y posibles problemas dentro del equipo, permitiendo a los líderes y miembros tomar medidas para mejorar el ambiente laboral y la productividad.
@@ -43,7 +38,7 @@ Los emoticonos que se usan para calificar el estado de ánimo de cada desarrolla
 | Martes     |          |         |         |         |          |          |
 | Miércoles  |          |         |         |    😴   |          |        |
 | Jueves     |          |    😊  |          |          |    😴   |          |
-| Viernes    |   🤯     |   😊   |   😊    |         |          |          |
+| Viernes    |     🤯     |   😊   |   😊    |         |          |          |
 | Sabado     |          |         |          |         |     😊    |          |
 | Domingo    |     😐     |         |   😊    |    😊   |    😐    |          |
 
@@ -57,7 +52,7 @@ Los emoticonos que se usan para calificar el estado de ánimo de cada desarrolla
 | Jueves     |          |   😊   |          |     😴     |       |          |
 | Viernes    |    😴    |     😐    |       |    😐     |          |          |
 | Sabado     |    😐    |    😴     |          |    😴     |         |          |
-| Domingo    |    😐     |         |       |         |          |          |
+| Domingo    |    😐     |     😴    |       |         |          |          |
 
 ### 📊 Análisis Cuantitativo
 
@@ -77,7 +72,7 @@ Los emoticonos que se usan para calificar el estado de ánimo de cada desarrolla
 | Desarrollador | Semana 1 | Semana 2 | Semana 3 | Semana 4 |
 |--------------|----------|----------|----------|----------|
 | Adrián    |  😊       | 😐       | 😐       | 🔹       |
-| Lucía    | 😐       | 😊       | 🔹       | 🔹       |
+| Lucía    | 😐       | 😊       | 😐       | 🔹       |
 |  Lidia    | 😊       | 😊       | 🔹       | 🔹       |
 | Borja    | 🔹       | 🔹       | 🔹       | 🔹       |
 | Javier    | 🔹       | 🔹       | 🔹       | 🔹       |
