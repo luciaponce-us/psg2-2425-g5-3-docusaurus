@@ -37,7 +37,7 @@ Los emoticonos que se usan para calificar el estado de ánimo de cada desarrolla
 | Lunes      |    😐    |   😐   |   😊   |   😐    |   😐    |          |
 | Martes     |          |         |         |         |          |          |
 | Miércoles  |          |         |         |    😴   |          |        |
-| Jueves     |          |    😊  |          |          |    😴   |          |
+| Jueves     |          |    😊  |          |          |    😴   |        |
 | Viernes    |     🤯     |   😊   |   😊    |         |          |          |
 | Sabado     |          |         |          |         |     😊    |          |
 | Domingo    |     😐     |         |   😊    |    😊   |    😐    |          |
