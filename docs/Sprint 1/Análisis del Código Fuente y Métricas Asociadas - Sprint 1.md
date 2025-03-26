@@ -1,6 +1,6 @@
 ---
 title: Análisis del Código Fuente y Métricas Asociadas
-slug: /sprint2/analisis-y-metricas
+slug: /sprint1/analisis-y-metricas
 ---
 
 # Análisis del Código Fuente y Métricas Asociadas
@@ -18,40 +18,49 @@ slug: /sprint2/analisis-y-metricas
 
 ## Historial de versiones  
 
-| Versión | Fecha       | Descripción de cambios |
-|---------|------------|------------------------|
-| 1.0.0   | 13/03/2025 | Versión inicial        |
+| Versión | Fecha      | Descripción de cambios             |
+|---------|------------|------------------------------------|
+| 1.0.0   | 13/03/2025 | Versión inicial                    |
+| 1.1.0   | 25/03/2025 | Errores de numeración corregidos 1 |
 
 ## Índice
 
-1. [DashBoard de SonarQube](#1-dashboard-de-sonarqube)
-2. [Análisis de Métricas](#2-análisis-de-métricas)
-    1. [Resumen de métricas - Sprint 1](#21-resumen-de-métricas---sprint-1)
-    2. [Resumen de métricas - Sprint 2](#22-resumen-de-métricas---sprint-2)
-3. [Análisis de errores potenciales](#3-análisis-de-errores-potenciales)
-    1. [Bugs - Sprint 1](#31-bugs---sprint-1)
-    2. [Bugs - Sprint 2](#32-bugs---sprint-2)
-4. [Análisis de Code Smells](#4-análisis-de-code-smells)
-    1. [Code Smells en el Backend](#41-code-smells-en-el-backend)
-    2. [Code Smells en el Frontend](#42-code-smells-en-el-frontend)
-5. [Políticas de versionado](#5-conclusiones)
+1. [Introducción](#1-introducción)
+2. [DashBoard de SonarQube](#2-dashboard-de-sonarqube)
+3. [Análisis de Métricas](#3-análisis-de-métricas)
+    1. [Resumen de Métricas - Backend](#31-resumen-de-métricas---backend)
+    2. [Resumen de Métricas - Frontend](#32-resumen-de-métricas---frontend)
+4. [Análisis de errores potenciales](#4-análisis-de-errores-potenciales)
+    1. [Bugs - Backend](#41-bugs---backend)
+    2. [Bugs - Frontend](#42-bugs---frontend)
+5. [Análisis de Code Smells](#5-análisis-de-code-smells)
+    1. [Code Smells en el Backend](#51-code-smells-en-el-backend)
+    2. [Code Smells en el Frontend](#52-code-smells-en-el-frontend)
+6. [Conclusiones](#6-conclusiones)
 
 
-## 1. DashBoard de SonarQube
-- **Sprint 1:**
-    - Backend
+## 1. Introducción
 
-    ![DashBoard Backend S1](./img/sonarQubeBackendS1.png) 
+En este informe se presenta el análisis del código fuente y las métricas asociadas de nuestro proyecto durante el Sprint 1. El análisis se ha realizado utilizando la herramienta SonarQube, que proporciona un conjunto de métricas clave para evaluar la calidad del código en términos de mantenibilidad, fiabilidad y seguridad. Este análisis abarca tanto el Backend como el Frontend de la aplicación, permitiendo detectar problemas potenciales, como bugs, code smells y vulnerabilidades.
 
-    - Frontend
+Este análisis tiene como objetivo mejorar la calidad del software, asegurar la correcta evolución del proyecto y minimizar posibles problemas a lo largo del ciclo de desarrollo.
 
-    ![DashBoard Frontend S1](./img/sonarQubeFrontendS1.png)
+## 2. DashBoard de SonarQube
 
-## 2. Análisis de Métricas
+### **2.1. Backend**
+
+![DashBoard Backend S1](img/sonarQubeBackendS1.png) 
+
+### **2.2. Frontend**
+
+![DashBoard Frontend S1](img/sonarQubeFrontendS1.png)
+
+
+## 3. Análisis de Métricas
 
 El análisis de SonarQube nos proporciona métricas clave sobre la calidad del código en nuestro proyecto. A continuación, desglosamos los valores obtenidos y su impacto en la mantenibilidad y fiabilidad del código.
 
-### **2.1. Resumen de Métricas - Sprint 1**
+### **3.1. Resumen de Métricas - Backend**
 - Dashboard del Backend: 
 
     | Métrica                  | Valor   | Interpretación |
@@ -63,6 +72,7 @@ El análisis de SonarQube nos proporciona métricas clave sobre la calidad del c
     | **Coverage (Cobertura de Tests)** | 81.5%  | Un buen porcentaje de cobertura, indicando que la mayoría del código está probado. |
     | **Duplications (Duplicación de código)** | 0.0% | No hay código duplicado, lo cual es positivo para la mantenibilidad. |
 
+### **3.2. Resumen de Métricas - Frontend**
 - Dashboard del frontend:
 
     | Métrica                  | Valor   | Interpretación |
@@ -74,39 +84,38 @@ El análisis de SonarQube nos proporciona métricas clave sobre la calidad del c
     | **Coverage (Cobertura de Tests)** | 0.0%  | No hay cobertura de tests, lo que indica que el código no ha sido probado automáticamente. |
     | **Duplications (Duplicación de código)** | 15.4% | Un porcentaje elevado de duplicación, lo que puede afectar la mantenibilidad del código. |
 
-### **2.2. Resumen de Métricas - Sprint 2**
 
-## 3. Análisis de errores potenciales
 
-### **3.1. Bugs - Sprint 1**
+## 4. Análisis de errores potenciales
 
-- Backend: 
+### **4.1. Bugs - Backend**
 
-    El análisis de errores potenciales (bugs) detectados por SonarQube en el backend muestra 4 problemas abiertos. En esta sección, identificaremos el tipo de errores encontrados, sus causas y el impacto en el sistema.
 
-    | Archivo y Tipo de Bug                  | Descripción   | Posible Causa | Severidad |
-    |--------------------------|-------------- |-------------- |--------- | 
-    | **ClinicService.java** (`Remove this conditional structure or edit its code blocks so that they're not all the same.`)   | Código condicional con estructuras repetidas      |Código redundante y sin optimización | **Mayor** | 
-    | **ClinicOwnerService.java** (`Call Optional#isPresent() or !Optional#isEmpty() before accessing the value.`) | Se accede a valores sin verificar si Optional está vacío | Falta de uso de `Optional#isPresent()` o `Optional#isEmpty()` | **Mayor** | 
-    | **RoomService.java** (`Call Optional#isPresent() or !Optional#isEmpty() before accessing the value.`) | 	Se accede a valores sin verificar si Optional está vacío | Mismo problema que en ClinicOwnerService.java | **Mayor** |
-    | **VisitRestController.java** (`Bind path variable "petId" to a method parameter.`) | No se está vinculando correctamente una variable petId en un método  | Falta de anotación adecuada en el parámetro del método | **Mayor** |
+El análisis de errores potenciales (bugs) detectados por SonarQube en el backend muestra 4 problemas abiertos. En esta sección, identificaremos el tipo de errores encontrados, sus causas y el impacto en el sistema.
 
-- Frontend: 
+| Archivo y Tipo de Bug                  | Descripción   | Posible Causa | Severidad |
+|--------------------------|-------------- |-------------- |--------- | 
+| **ClinicService.java** (`Remove this conditional structure or edit its code blocks so that they're not all the same.`)   | Código condicional con estructuras repetidas      |Código redundante y sin optimización | **Mayor** | 
+| **ClinicOwnerService.java** (`Call Optional#isPresent() or !Optional#isEmpty() before accessing the value.`) | Se accede a valores sin verificar si Optional está vacío | Falta de uso de `Optional#isPresent()` o `Optional#isEmpty()` | **Mayor** | 
+| **RoomService.java** (`Call Optional#isPresent() or !Optional#isEmpty() before accessing the value.`) | 	Se accede a valores sin verificar si Optional está vacío | Mismo problema que en ClinicOwnerService.java | **Mayor** |
+| **VisitRestController.java** (`Bind path variable "petId" to a method parameter.`) | No se está vinculando correctamente una variable petId en un método  | Falta de anotación adecuada en el parámetro del método | **Mayor** |
 
-    El análisis de SonarQube ha identificado 24 bugs en el código del frontend, los cuales se pueden agrupar en 4 categorías principales. A continuación, se describe cada tipo de error, sus causas y las soluciones recomendadas.
+### **4.2. Bugs - Frontend**
 
-    | Tipo de Bug | Cantidad | Descripción | Posible Causa | Severidad |
-    |------------|----------|-------------|---------------|-----------|
-    | **Uso incorrecto de `setState` en React** (`Use callback in setState when referencing the previous state`) | 20 | Se usa `setState` sin utilizar la versión con callback, lo que puede causar inconsistencias en el estado. | No se respeta la asincronía de `setState`, provocando accesos a valores desactualizados. | **Mayor** |
-    | **Duplicación de propiedades en CSS** (`Unexpected duplicate "property" `) | 2 | Existen propiedades CSS duplicadas en el mismo selector. | Código CSS no optimizado o errores en la edición. | **Mayor** | 
-    | **Falta de una fuente genérica en CSS** (`Unexpected missing generic font family`) | 1 | No se especifica una fuente alternativa en `font-family`. | Se define solo una fuente específica sin incluir una alternativa genérica. | **Mayor** | 
-    | **Estructuras condicionales redundantes** (`Remove this conditional structure or edit its code blocks so that they're not all the same`) | 1 | Código condicional con bloques de ejecución repetitivos. | Mala organización del código y falta de refactorización. | **Mayor** |
+El análisis de SonarQube ha identificado 24 bugs en el código del frontend, los cuales se pueden agrupar en 4 categorías principales. A continuación, se describe cada tipo de error, sus causas y las soluciones recomendadas.
 
-### **3.1. Bugs - Sprint 1**
+| Tipo de Bug | Cantidad | Descripción | Posible Causa | Severidad |
+|------------|----------|-------------|---------------|-----------|
+| **Uso incorrecto de `setState` en React** (`Use callback in setState when referencing the previous state`) | 20 | Se usa `setState` sin utilizar la versión con callback, lo que puede causar inconsistencias en el estado. | No se respeta la asincronía de `setState`, provocando accesos a valores desactualizados. | **Mayor** |
+| **Duplicación de propiedades en CSS** (`Unexpected duplicate "property" `) | 2 | Existen propiedades CSS duplicadas en el mismo selector. | Código CSS no optimizado o errores en la edición. | **Mayor** | 
+| **Falta de una fuente genérica en CSS** (`Unexpected missing generic font family`) | 1 | No se especifica una fuente alternativa en `font-family`. | Se define solo una fuente específica sin incluir una alternativa genérica. | **Mayor** | 
+| **Estructuras condicionales redundantes** (`Remove this conditional structure or edit its code blocks so that they're not all the same`) | 1 | Código condicional con bloques de ejecución repetitivos. | Mala organización del código y falta de refactorización. | **Mayor** |
 
-## 4. Análisis de Code Smells
 
-### 4.1. Code Smells en el Backend
+
+## 5. Análisis de Code Smells
+
+### 5.1. Code Smells en el Backend
 
 El análisis de SonarQube ha identificado un total de 135 code smells en el backend de nuestro proyecto, distribuidos de la siguiente manera:
 
@@ -120,7 +129,7 @@ El análisis de SonarQube ha identificado un total de 135 code smells en el back
 
 A continuación, se analizará en detalle el code smell de gravedad critical, seguido de ejemplos representativos de los code smells major, minor e info.
 
-### 4.1.1. Code Smell de Gravedad Critical
+### 5.1.1. Code Smell de Gravedad Critical
 
 #### Inyección de Dependencias en Configuración
 
@@ -138,7 +147,7 @@ A continuación, se analizará en detalle el code smell de gravedad critical, se
 
 - **Solución:** Inyectar las dependencias directamente en el método que las necesita en lugar de declararlas como atributos de clase.
 
-### 4.1.2. Code Smells de Gravedad Major
+### 5.1.2. Code Smells de Gravedad Major
 
 #### Código Comentado sin Uso
 
@@ -154,7 +163,7 @@ A continuación, se analizará en detalle el code smell de gravedad critical, se
 
 - **Solución:** Eliminar los comentarios innecesarios para evitar confusión y mejorar la legibilidad.
 
-### 4.1.3. Code Smells de Gravedad Minor
+### 5.1.3. Code Smells de Gravedad Minor
 
 #### Importaciones no utilizadas
 
@@ -170,7 +179,7 @@ A continuación, se analizará en detalle el code smell de gravedad critical, se
 
 - **Solución:** Eliminar las importaciones no utilizadas para mejorar la claridad y reducir el desorden en el código.
 
-### 4.1.4. Code Smells de Gravedad Info
+### 5.1.4. Code Smells de Gravedad Info
 
 #### Comentarios TODO sin resolver
 
@@ -180,7 +189,7 @@ A continuación, se analizará en detalle el code smell de gravedad critical, se
 
 - **Solución:** Completar la tarea pendiente o eliminar el comentario si ya no es relevante.
 
-### 4.2. Code Smells en el Frontend
+### 5.2. Code Smells en el Frontend
 
 El análisis de SonarQube ha identificado un total de 100 code smells en el frontend de nuestro proyecto, distribuidos de la siguiente manera:
 
@@ -192,7 +201,7 @@ El análisis de SonarQube ha identificado un total de 100 code smells en el fron
 
 A continuación, se analizará en detalle el code smell de gravedad critical, seguido de ejemplos representativos de los code smells major, minor e info.
 
-#### 4.2.1. Code Smells de Gravedad Critical
+#### 5.2.1. Code Smells de Gravedad Critical
 
 #### Complejidad Cognitiva Excesiva en Componentes
 
@@ -206,7 +215,7 @@ const FormInput = forwardRef(({ tag, name, type, defaultValue, values, isRequire
 
 - **Solución:** Refactorizar la función para reducir su complejidad cognitiva.
 
-#### 4.2.2. Code Smells de Gravedad Major
+#### 5.2.2. Code Smells de Gravedad Major
 
 #### Eliminación de Asignaciones Innecesarias
 
@@ -219,7 +228,7 @@ const [clinics, setClinics] = useFetchState(
 
 - **Solución:** Eliminar la asignación innecesaria a setClinics.
 
-#### 4.2.3. Code Smells de Gravedad Minor
+#### 5.2.3. Code Smells de Gravedad Minor
 
 #### Uso Redundante de Fragmentos en React
 
@@ -238,7 +247,7 @@ if (role === "VET") {
 
 - **Solución:** Eliminar el fragmento innecesario y dejar solo el elemento hijo.
 
-## 5. Conclusiones
+## 6. Conclusiones
 El análisis de SonarQube revela que el backend tiene buena cobertura de pruebas (81.5%) y cero vulnerabilidades, mientras que el frontend presenta problemas críticos como falta de tests (0% de cobertura) y un 15.4% de código duplicado.
 
 Se han detectado 4 bugs en el backend y 24 en el frontend, principalmente relacionados con la gestión del estado en React y código redundante. Además, hay 235 code smells en total, destacando problemas de inyección de dependencias, código comentado sin uso e importaciones innecesarias.

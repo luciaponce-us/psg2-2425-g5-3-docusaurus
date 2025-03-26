@@ -88,7 +88,6 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -103,7 +102,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Sprint 1',
+                label: 'Docs',
                 to: '/docs/historial',
               },
             ],
@@ -114,14 +113,6 @@ const config = {
               {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
               },
             ],
           },

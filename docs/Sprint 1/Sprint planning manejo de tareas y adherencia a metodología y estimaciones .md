@@ -1,6 +1,6 @@
 ---
-title: Planning
-slug: /sprint1/sprint-planning-tareas
+title: Sprint Planning
+slug: /sprint1/planning
 sidebar_position: 1
 ---
 
@@ -58,13 +58,7 @@ Las tareas se crean en forma de issues de GitHub y cada una debe tener:
 - Solo una persona asignada a una tarea y otra persona (distinta) a su revision
 ### 2.2 Seguimiento
 
-Para el seguimiento de las tareas se usa el dashboard de zenhub y las daily stand-up meetings que se realizan cada semana. También se lleva un registro en Clockify de las horas que cada persona dedicó a cada tarea.
-
-![clockify1](Clockify_Time_Report_Detailed_01_02_2025-28_02_2025-1.png)
-![clockify2](Clockify_Time_Report_Detailed_01_02_2025-28_02_2025-2.png)
-![clockify3](Clockify_Time_Report_Detailed_01_02_2025-28_02_2025-3.png)
-![clockify4](Clockify_Time_Report_Detailed_01_02_2025-28_02_2025-4.png)
-![clockify5](Clockify_Time_Report_Detailed_01_02_2025-28_02_2025-5.png)
+Para el seguimiento de las tareas se usa el dashboard de zenhub y las daily stand-up meetings que se realizan cada semana. También se lleva un registro en Clockify de las horas que cada persona dedicó a cada tarea. En definitiva contamos finalmente con dos documentos en formato pdf para llevar a cabo el análisis final del rendimiento del sprint, siendo uno de ellos un informe detallado con cada una de las tareas realizadas progresivamente por cada uno de los miembros del grupo, y otro informe general con gráficos más visuales. Ambos informes pueden encontrarse en la carpeta del _sprint 1_ que se encuentra dentro de la carpeta _docs_ del proyecto.
 
 ## 3. Adherencia a Metodología Ágil y Estimaciones
 
