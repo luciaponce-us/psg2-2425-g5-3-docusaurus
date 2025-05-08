@@ -4,6 +4,8 @@ slug: /metodologia
 ---
 # Metodología de gestión de la configuración v1.5.2
 
+![Logo Universidad de Sevilla](./img/banner.jpg) 
+
 ## Miembros del equipo
 
 | Nombre                        |
@@ -116,10 +118,10 @@ Las ramas por defecto del proyecto son:
 - Develop (develop): Integra características completas antes de su lanzamiento. 
 - Ramas de funcionalidad (feature): Se utilizan para desarrollar nuevas funcionalidades.
 - Ramas de lanzamiento (release): Preparan una versión para su implementación.
-- Ramas de corrección urgente (hotfix): Corrigen errores críticos en producción.
+- Ramas de corrección urgente (hotfix/RamaFix): Corrigen errores críticos en producción.
 
 ## 4. Estrategia de branching basado en GitFlow
-Git Flow es un modelo de branching que organiza el desarrollo a través de ramas estructuradas, las que se han explicado en la sección anterior: main, develop, feature, release y hotfix.
+Git Flow es un modelo de branching que organiza el desarrollo a través de ramas estructuradas, las que se han explicado en la sección anterior: main, develop, feature, release y hotfix/RamaFix.
 
 ### 4.1. Cómo desarrollar ramas de funcionalidad
 1. Crear una rama de funcionalidad(feature) desde develop:

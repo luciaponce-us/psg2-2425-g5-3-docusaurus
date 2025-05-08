@@ -6,6 +6,8 @@ sidebar_position: 3
 
 # Informe de Retrospectiva
 
+![Logo Universidad de Sevilla](./img/banner.jpg)
+
 ## Índice
 
 1. [Introducción](#1-introducción)

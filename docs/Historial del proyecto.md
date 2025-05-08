@@ -5,6 +5,9 @@ slug: /historial
 
 # Informe Técnico: Historial del Proyecto
 
+![Logo Universidad de Sevilla](./img/banner.jpg) 
+
+
 ## Miembros del equipo
 
 | Nombre                        |
@@ -32,10 +35,23 @@ Este informe documenta el historial del proyecto después de completar las tarea
 ## 2. Línea de Tiempo de Commits
 Se presenta a continuación la línea de tiempo de los commits:
 
-![Diagrama con los commits](../static/img/commits/commit4.png) 
-![Diagrama con los commits](../static/img/commits/commit3.png) 
-![Diagrama con los commits](../static/img/commits/commit2.png) 
-![Diagrama con los commits](../static/img/commits/commit1.png)
+![Diagrama con los commits](./img/Commit17.png) 
+![Diagrama con los commits](./img/Commit16.png) 
+![Diagrama con los commits](./img/Commit15.png) 
+![Diagrama con los commits](./img/Commit14.png) 
+![Diagrama con los commits](./img/Commit13.png) 
+![Diagrama con los commits](./img/Commit12.png) 
+![Diagrama con los commits](./img/Commit11.png) 
+![Diagrama con los commits](./img/Commit10.png) 
+![Diagrama con los commits](./img/Commit9.png) 
+![Diagrama con los commits](./img/Commit8.png) 
+![Diagrama con los commits](./img/Commit7.png) 
+![Diagrama con los commits](./img/Commit6.png) 
+![Diagrama con los commits](./img/Commit5.png) 
+![Diagrama con los commits](./img/Commit4.png) 
+![Diagrama con los commits](./img/Commit3.png) 
+![Diagrama con los commits](./img/Commit2.png) 
+![Diagrama con los commits](./img/Commit1.png) 
 
 ## 3. Identificación y resolución de conflictos
 - **Conflicto en imágenes de la página de inicio:** 
@@ -63,10 +79,10 @@ Se presenta a continuación la línea de tiempo de los commits:
     Este error nos generó un problema, ya que ahora no podíamos mergear la rama release a main, puesto que esta última ya contenía los cambios de develop. Además, no estábamos seguros de si main había quedado correctamente sincronizada con todos los cambios subidos por error.
     - Resolución: Para corregir la situación, primero intentamos hacer un revert al commit anterior en main, pero esto no funcionó como esperábamos. Finalmente, optamos por un reset, lo que devolvió main a su estado original antes del error. Tras esto, pudimos realizar el merge correctamente y proceder con el despliegue sin más inconvenientes.
 
-
-
 ## 4. Conclusión
 A pesar de algunos conflictos presentados, estos fueron resueltos eficientemente mediante revisiones y comunicación en equipo.
+
+---
 
 # Historial de Cambios en A1.5 y A1.6 por Lidia (E1.1) 
 
@@ -101,7 +117,6 @@ Por lo tanto, para las tareas A1.5 y A1.6, concretamente para cada subtarea de e
         
         Los colores fueron cambiados de forma que la menor tarifa tuviera un tono más oscuro, mientras que la mayor tuviera un tono más claro.
 
-
 ### A1.6 - Preparación de la release del proyecto y despliegue
 En cuanto a la tarea A1.6, participé activamente en la reunión grupal donde se llevó a cabo esta actividad, la cual consistía en preparar una release del proyecto de Petclinic y, posteriormente, desplegarla en la web, resolviendo cualquier error o conflicto que surgiera.
 
@@ -119,7 +134,6 @@ Además, participé activamente en la discusión, planteando preguntas para acla
     - Creación de la feature/PricingPlansBrownTheme a partir de develop: la rama feature se creó en base a la rama develop, por lo que partí desde la última versión del proyecto, trayéndome todos los cambios a mi workspace local antes de empezar a trabajar.
 
 - Mientras trabajábamos en la tarea A1.6, nos encontramos con un problema al intentar hacer merge de la rama release con main. Resulta que uno de mis compañeros, por error, hizo un pull de develop a main, lo que provocó que, al intentar el merge, no hubiera cambios pendientes, ya que main ya estaba actualizado. Como no estábamos completamente seguros de que los cambios en main fueran los correctos, después de discutirlo, decidimos hacer un reset de la rama para devolverla al estado inicial antes de que ocurriera el problema. Tras esto, todo funcionó sin inconvenientes y pudimos continuar sin problemas.
-
 
 ## 5. Opinión sobre la Estrategia de Branching  
 ### Ventajas  
@@ -139,6 +153,7 @@ Además, participé activamente en la discusión, planteando preguntas para acla
 ## 6. Conclusión  
 En conclusión, en mi opinión creo que esta estrategia de ramas ayuda a mantener el proyecto bastante organizado en todo momento y evita que se suban cambios inestables o incongruencias a producción. Además, facilita el trabajo en equipo y la revisión del código. Sin embargo, puede volverse un poco complicada si no se lleva un buen control de las ramas, especialmente cuando hay muchas en paralelo. Si el equipo se coordina, se comunica bien y sigue buenas prácticas, las ventajas superarán con creces a las desventajas que esta podría presentar.
 
+---
 
 # Historial de Cambios en A1.5 y A1.6 por Javier (E1.1) 
 
@@ -177,10 +192,6 @@ Teniendo esto en cuenta; para cada subtarea se crearon ramas feature siguiendo e
 
     - Como última aportación, y con el único propósito de asegurarme del correcto funcionamiento de la nueva entidad, diseé pruebas unitarias tanto para el Service como para el Controller, probando así todas las funiconalidades implementadas.
 
-
-
-
-
 - Archivos modificados y propósito de cada cambio:
     - Room.java: Creación de la nueva entidad.
     - RoomRepository.java: Creación del repositorio extendiendo CRUDRepository.
@@ -207,7 +218,6 @@ Mientras tanto, otra compañera estaba preparando el despliegue, por lo que en c
 - Mientras trabajábamos en la tarea A1.6, nos encontramos con un problema al intentar hacer merge de la rama release con main. 
 Sin darme cuenta, acepté una pull request que estaba dirigida a la rama main, por lo que al intentar hacer la release, no había cambios pendientes y no encontrábamos la manera de llevarlo a cabo. Después de discutir entre todos las posibles soluciones a este conflicto, decidimos realizar un reset de la rama main, ya que era la forma más efectiva de volver a un estado anterior de la rama y borrar el historial con commits innecesarios, por lo que pudimos realizar la tarea sin más problemas.
 
-
 ## 5. Opinión sobre la Estrategia de Branching  
 ### Ventajas  
 - **Estructura clara y organizada**: Separa claramente el desarrollo, las nuevas características, los lanzamientos y las correcciones de errores.
@@ -222,4 +232,3 @@ Sin darme cuenta, acepté una pull request que estaba dirigida a la rama main, p
 
 ## 6. Conclusión  
 En conclusión, esta estrategia de ramas me parece una opción muy interesante en este tipo de trabajos. Facilita la implementación de las tareas de manera independiente, y la coordinación y el trabajo en equipo. El hecho de revisar cada rama antes de hacer un merge asegura la calidad del producto final, a pesar del coste de eficiencia, y la existencia de las ramas release y hotfix aseguran la fácil corrección de bugs. Por otro lado, aunque entiendo que en el contexto de la asignatura las ramas de las pull request que han sido aceptadas se tengan que mantener, si se pudieran cerrar mantenría el repositorio mucho más limpio y más organizado.
-

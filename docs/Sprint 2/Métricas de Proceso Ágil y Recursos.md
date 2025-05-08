@@ -5,6 +5,8 @@ slug: /sprint2/metricas
 
 # Métricas de Proceso Ágil y Recursos
 
+![Logo Universidad de Sevilla](./img/banner.jpg)
+
 ## Miembros del equipo
 
 | Nombre                        |

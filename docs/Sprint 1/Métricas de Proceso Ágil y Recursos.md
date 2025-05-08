@@ -2,7 +2,10 @@
 title: Métricas de Proceso Ágil y Recursos
 slug: /sprint1/metricas
 ---
+
 # Métricas de Proceso Ágil y Recursos
+
+![Logo Universidad de Sevilla](./img/banner.jpg) 
 
 ## Miembros del equipo
 
@@ -40,7 +43,7 @@ En este documento presentamos las principales métricas y recursos utilizados en
 
 Este gráfico muestra la evolución del trabajo restante a lo largo del Sprint 1, comparando la cantidad de trabajo planificado con el tiempo disponible. Visualmente, representa cómo el equipo gestionó la finalización de tareas a lo largo del sprint, indicando si el progreso fue constante, si hubo bloqueos o si se aceleró la entrega en los últimos días. Gracias a esta métrica, fue posible evaluar si el equipo se mantuvo alineado con los objetivos previstos y detectar posibles desviaciones en la planificación.
 
-![Gráfico Milestone Burn Down](img/milestoneBurnDown.png)
+![alt text](./img/milestoneBurnDown.png)
 
 En el gráfico resultante, se puede observar que durante los primeros días del sprint, el progreso fue limitado, lo que sugiere que el equipo adoptó un enfoque más relajado en las etapas iniciales. Sin embargo, a medida que avanzó la segunda semana, se empezó a evidenciar un progreso constante. Es destacable que los días en los que se registró un mayor avance fueron principalmente durante los fines de semana, mientras que entre semana la actividad fue presente, pero con un ritmo menos marcado. Finalmente, se puede apreciar que conforme se acercaba la fecha de entrega del sprint, el ritmo de trabajo del equipo se aceleró de manera considerable, reflejando un esfuerzo intensificado para completar las tareas a tiempo.
 
@@ -48,7 +51,7 @@ En el gráfico resultante, se puede observar que durante los primeros días del 
 
 El gráfico Lead Time refleja el tiempo total transcurrido desde que una tarea fue registrada en el estado _To Do_, indicando que estaba pendiente de ser trabajada, hasta que alcanzó el estado _Done_, señalando su finalización durante el Sprint 1. Esta métrica permite evaluar la eficiencia del flujo de trabajo, identificando posibles retrasos y oportunidades de mejora en el proceso de desarrollo.
 
-![Gráfico Lead Time](img/leadTime.png)
+![alt text](./img/leadTime.png)
 
 En el gráfico resultante podemos observar que la mayoría de las tareas tienen un buen ritmo y se completan dentro del tiempo estimado, dejando poco margen. Aunque hay algunas tareas que se exceden ligeramente en el tiempo, estas no generan un impacto significativo si las comparamos con la cantidad de tareas que se completan correctamente dentro del tiempo estipulado. Esto indica que, en general, el equipo mantiene un rendimiento consistente y eficiente, con pocas variaciones que afecten el flujo global de trabajo.
 
@@ -56,7 +59,7 @@ En el gráfico resultante podemos observar que la mayoría de las tareas tienen 
 
 El gráfico Cycle Time presenta el tiempo total transcurrido desde que una tarea comenzó a estar en el estado _In Progress_ hasta su finalización en el estado _Done_ durante el Sprint 1. Esta métrica permite evaluar la eficiencia del flujo de trabajo del equipo, identificando posibles cuellos de botella, variabilidad en los tiempos de entrega y áreas de mejora en el proceso de desarrollo. A través del análisis del Cycle Time, es posible obtener información valiosa sobre la velocidad de trabajo y la capacidad de entrega del equipo en este primer sprint.
 
-![Gráfico Cycle Time](img/cycleTime.png)
+![alt text](./img/cycleTime.png)
 
 En el gráfico resultante podemos observar que la mayoría de las tareas se mantienen en la fase de in progress durante un tiempo inferior al estimado, lo que indica que se están completando más rápido de lo previsto. Sin embargo, en el otro extremo, algunas tareas presentan un tiempo de finalización superior al estimado. Este comportamiento sugiere que es necesario mejorar la forma en que realizamos las estimaciones, para ajustarlas de manera más precisa a la realidad de los tiempos de ejecución.
 A pesar de estas variaciones, en términos generales, el equipo se mantiene dentro de la zona segura, lo que indica que, aunque hay espacio para optimizar las estimaciones, no hay riesgos inminentes que afecten negativamente el flujo de trabajo.
@@ -65,7 +68,7 @@ A pesar de estas variaciones, en términos generales, el equipo se mantiene dent
 
 El total de puntos de historia entregados refleja la cantidad de trabajo completado durante el Sprint 1, medido en función de las estimaciones iniciales asignadas a cada tarea.
 
-![Puntos de historia](img/puntosHistoria.png)
+![alt text](./img/puntosHistoria.png)
 
 Durante el Sprint 1, el equipo logró completar un total de 60 puntos de historia de los 60 puntos planificados. Este resultado demuestra que el equipo fue capaz de abordar y completar el alcance total del sprint, evidenciando una planificación y ejecución eficiente.
 
@@ -75,7 +78,7 @@ El análisis de esta métrica confirma que el equipo mantuvo un ritmo de trabajo
 
 El porcentaje de puntos de historia entregados refleja la efectividad del equipo en relación con las expectativas iniciales de entrega.
 
-![Porcentaje puntos de historia](img/puntosHistoria.png)
+![alt text](./img/puntosHistoria.png)
 
 En este sprint, el equipo logró completar el 100% de los puntos de historia planificados, lo que indica que:
 
@@ -89,7 +92,7 @@ En este sprint, el equipo logró completar el 100% de los puntos de historia pla
 
 El gráfico Bottleneck o Diagrama de Flujo Acumulado muestra la evolución de las tareas a lo largo del Sprint 1, diferenciando entre los estados de To Do, In Progress, In Review y Done. Este gráfico permite identificar posibles cuellos de botella en el proceso de desarrollo, ya que revela en qué fase del flujo de trabajo se acumulan las tareas.
 
-![Gráfico Bottleneck](img/graficoBottleneck.png)
+![alt text](./img/graficoBottleneck.png)
 
 ### Análisis:
 

@@ -1,10 +1,11 @@
 ---
 title: Análisis del Código Fuente y Métricas Asociadas
 slug: /sprint2/analisis-y-metricas
-sidebar_position: 6
 ---
 
 # Análisis del Código Fuente y Métricas Asociadas
+
+![Logo Universidad de Sevilla](./img/banner.jpg)
 
 ## Miembros del equipo
 

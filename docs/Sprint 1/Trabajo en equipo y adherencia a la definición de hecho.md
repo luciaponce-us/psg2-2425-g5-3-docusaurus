@@ -5,6 +5,9 @@ sidebar_position: 4
 ---
 
 # Reporte 1 v2.0.0
+
+![Logo Universidad de Sevilla](./img/banner.jpg)
+
 ## Historial de versiones  
 
 | Versión | Fecha       | Descripción de cambios |

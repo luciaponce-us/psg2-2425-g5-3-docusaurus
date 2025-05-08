@@ -3,7 +3,9 @@ title: Análisis del Código Fuente y Métricas Asociadas
 slug: /sprint1/analisis-y-metricas
 ---
 
-# Análisis del Código Fuente y Métricas Asociadas
+# Análisis del Código Fuente y Métricas Asociadas - Sprint 1
+
+![Logo Universidad de Sevilla](./img/banner.jpg) 
 
 ## Miembros del equipo
 
@@ -49,11 +51,11 @@ Este análisis tiene como objetivo mejorar la calidad del software, asegurar la 
 
 ### **2.1. Backend**
 
-![DashBoard Backend S1](img/sonarQubeBackendS1.png) 
+![DashBoard Backend S1](./img/sonarQubeBackendS1.png) 
 
 ### **2.2. Frontend**
 
-![DashBoard Frontend S1](img/sonarQubeFrontendS1.png)
+![DashBoard Frontend S1](./img/sonarQubeFrontendS1.png)
 
 
 ## 3. Análisis de Métricas

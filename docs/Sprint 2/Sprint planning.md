@@ -7,8 +7,10 @@ sidebar_position: 1
 
 # Sprint planning
 
+![Logo Universidad de Sevilla](./img/banner.jpg)
+
 ## Índice
-1. [Sprint planning](#1-sprint-planning)
+1. [Sprint Planning](#1-sprint-planning)
 2. [Manejo de Tareas](#2-manejo-de-tareas)
 3. [Conclusion](#3-conclusion)
 

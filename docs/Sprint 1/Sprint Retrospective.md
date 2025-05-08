@@ -1,10 +1,11 @@
 ---
-title: Sprint Retrospectiva
-slug: /sprint1/retrospectiva
+title: Sprint Retrospective
+slug: /sprint1/retrospective
 sidebar_position: 3
 ---
+# Informe de Retrospectiva Sprint 1
 
-# Informe de Retrospectiva Sprint 1 
+![Logo Universidad de Sevilla](./img/banner.jpg) 
 
 ## Índice
 
@@ -13,6 +14,7 @@ sidebar_position: 3
 3. [Evaluación De Los Métodos Del Equipo Y Posibles Mejoras](#3-evaluación-de-los-métodos-del-equipo-y-posibles-mejoras)
 4. [Plan De Acción](#4-plan-de-acción)
 5. [Tabla De Rendimiento](#5-tabla-de-rendimiento)
+
 
 ---
 
@@ -64,4 +66,4 @@ Se utilizan porcentajes para mostrar el grado de cumplimiento de las siguientes 
 ## **5. Tabla de rendimiento**
 Esta sección se centra en la evaluación del desempeño individual. Luego de un análisis justo del rendimiento durante el sprint, se ha determinado que todos los miembros del equipo recibirán la misma puntuación final, dado que hemos aportado equitativamente al proyecto. A continuación, se presenta la tabla de rendimiento final para este primer sprint.
 
-![Tabla de rendimiento de cada desarrollador](../../static/img/Tabla_rendimiento.png) 
+![Tabla de rendimiento de cada desarrollador](./img/Tabla_rendimiento.png) 

@@ -1,9 +1,11 @@
 ---
 title: Calendario Niko-Niko
 slug: /sprint2/niko-niko
+sidebar_position: 5
 ---
-
 ## Calendario Niko-Niko
+
+![Logo Universidad de Sevilla](./img/banner.jpg)
 
 El **Calendario Niko-Niko** es una herramienta visual diseñada para registrar el estado de ánimo de los miembros de un equipo de trabajo a lo largo del tiempo. Su objetivo principal es identificar patrones emocionales y posibles problemas dentro del equipo, permitiendo a los líderes y miembros tomar medidas para mejorar el ambiente laboral y la productividad.
 

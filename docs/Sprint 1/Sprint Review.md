@@ -3,7 +3,10 @@ title: Sprint Review
 slug: /sprint1/sprint-review
 sidebar_position: 2
 ---
+
 # Sprint Review
+
+![Logo Universidad de Sevilla](./img/banner.jpg) 
 
 ## Miembros del equipo
 
