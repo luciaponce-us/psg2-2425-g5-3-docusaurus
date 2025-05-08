@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="es" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-Sprint 3/Análisis de la capacidad y el riesgo de Petclinic Services (PSG2-2425-G3-53)" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">Análisis de la capacidad y el riesgo | Pet Clinic Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://luciaponce-us.github.io/psg2-2425-g5-3-docusaurus/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://luciaponce-us.github.io/psg2-2425-g5-3-docusaurus/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://luciaponce-us.github.io/psg2-2425-g5-3-docusaurus/docs/sprint3/analisis-capacidad-riesgo"><meta data-rh="true" property="og:locale" content="es"><meta data-rh="true" name="docusaurus_locale" content="es"><meta data-rh="true" name="docsearch:language" content="es"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Análisis de la capacidad y el riesgo | Pet Clinic Documentation"><meta data-rh="true" name="description" content="Logo Universidad de Sevilla"><meta data-rh="true" property="og:description" content="Logo Universidad de Sevilla"><link data-rh="true" rel="icon" href="/psg2-2425-g5-3-docusaurus/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://luciaponce-us.github.io/psg2-2425-g5-3-docusaurus/docs/sprint3/analisis-capacidad-riesgo"><link data-rh="true" rel="alternate" href="https://luciaponce-us.github.io/psg2-2425-g5-3-docusaurus/docs/sprint3/analisis-capacidad-riesgo" hreflang="es"><link data-rh="true" rel="alternate" href="https://luciaponce-us.github.io/psg2-2425-g5-3-docusaurus/docs/sprint3/analisis-capacidad-riesgo" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/psg2-2425-g5-3-docusaurus/blog/rss.xml" title="Pet Clinic Documentation RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/psg2-2425-g5-3-docusaurus/blog/atom.xml" title="Pet Clinic Documentation Atom Feed"><link rel="stylesheet" href="/psg2-2425-g5-3-docusaurus/assets/css/styles.91418e0b.css">
+<script src="/psg2-2425-g5-3-docusaurus/assets/js/runtime~main.2cb9a064.js" defer="defer"></script>
+<script src="/psg2-2425-g5-3-docusaurus/assets/js/main.f08222e4.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/psg2-2425-g5-3-docusaurus/img/Logo_US.png"><div role="region" aria-label="Saltar al contenido principal"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Saltar al contenido principal</a></div><nav aria-label="Principal" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Alternar barra lateral" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/psg2-2425-g5-3-docusaurus/"><div class="navbar__logo"><img src="/psg2-2425-g5-3-docusaurus/img/Logo_US.png" alt="US logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/psg2-2425-g5-3-docusaurus/img/Logo_US.png" alt="US logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Pet Clinic Documentation</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/psg2-2425-g5-3-docusaurus/docs/historial">Docs</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Cambiar entre modo oscuro y claro (actualmente modo claro)" aria-label="Cambiar entre modo oscuro y claro (actualmente modo claro)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Volver al principio" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Barra lateral de Documentos" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/psg2-2425-g5-3-docusaurus/docs/historial">Historial del Proyecto</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/psg2-2425-g5-3-docusaurus/docs/metodologia">Metodología de gestión de la configuración</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/psg2-2425-g5-3-docusaurus/docs/sprint1/planning">Sprint 1</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/psg2-2425-g5-3-docusaurus/docs/sprint2/planning">Sprint 2</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/psg2-2425-g5-3-docusaurus/docs/sprint3/planning">Sprint 3</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/psg2-2425-g5-3-docusaurus/docs/sprint3/planning">Sprint Planning</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/psg2-2425-g5-3-docusaurus/docs/sprint3/review">Sprint Review</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/psg2-2425-g5-3-docusaurus/docs/sprint3/retorspective">Sprint Retrospective</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/psg2-2425-g5-3-docusaurus/docs/sprint3/equipo-dod">Trabajo en equipo y adherencia a la definición de hecho</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/psg2-2425-g5-3-docusaurus/docs/sprint3/niko-niko">Calendario Niko-Niko</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/psg2-2425-g5-3-docusaurus/docs/sprint3/reunion1">Actas de reunión</a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/psg2-2425-g5-3-docusaurus/docs/sprint3/analisis-capacidad-riesgo">Análisis de la capacidad y el riesgo</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/psg2-2425-g5-3-docusaurus/docs/sprint3/monitorizacion-AC">Monitorización del Acuerdo de Cliente</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Rastro de navegación"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Página de Inicio" class="breadcrumbs__link" href="/psg2-2425-g5-3-docusaurus/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Sprint 3</span><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Análisis de la capacidad y el riesgo</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">En esta página</button></div><div class="theme-doc-markdown markdown"><header><h1>Análisis de la capacidad y el riesgo de Petclinic Services (PSG2-2425-G3-53)</h1></header>
+<p><img decoding="async" loading="lazy" alt="Logo Universidad de Sevilla" src="/psg2-2425-g5-3-docusaurus/assets/images/banner-f91362ca330cf7225c7c57bc317ba9d1.jpg" width="1024" height="478" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="historial-de-versiones">Historial de versiones<a href="#historial-de-versiones" class="hash-link" aria-label="Enlace directo al Historial de versiones" title="Enlace directo al Historial de versiones">​</a></h2>
+<table><thead><tr><th>Versión</th><th>Fecha</th><th>Descripción de cambios</th></tr></thead><tbody><tr><td>1.0.0</td><td>29/03/2025</td><td>Versión inicial. Estimación de la demanda de recursoshumanos y materiales</td></tr><tr><td>2.0.0</td><td>30/03/2025</td><td>Demanda de servicio</td></tr><tr><td>3.0.0</td><td>30/03/2025</td><td>Versión final. TCO</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="índice">Índice<a href="#índice" class="hash-link" aria-label="Enlace directo al Índice" title="Enlace directo al Índice">​</a></h2>
+<ol>
+<li><a href="#1-introducci%C3%B3n">Introducción</a></li>
+<li><a href="#2-estimaci%C3%B3n-de-la-demanda">Estimación de la demanda</a>
+<ul>
+<li><a href="#21-demanda-de-recursos-humanos">Demanda de Recursos Humanos</a></li>
+<li><a href="#22-demanda-de-recursos-materiales">Demanda de Recursos Materiales</a></li>
+</ul>
+</li>
+<li><a href="#3-apis-externas-utilizadas">Apis Externas utilizadas</a>
+<ul>
+<li><a href="#31-%F0%9F%90%B6-dog-api">🐶 Dog API</a></li>
+<li><a href="#32-%F0%9F%90%BE-petfinder-api">🐾 Petfinder API</a></li>
+</ul>
+</li>
+<li><a href="#4-estimaci%C3%B3n-de-demanda-mensual-de-las-apis">Estimación de demanda mensual de las APIs</a>
+<ul>
+<li><a href="#41-tasas-y-cuotas-mensuales">Tasas y cuotas mensuales</a></li>
+<li><a href="#42-ecosistema-devops-y-soporte">Ecosistema DevOps y soporte</a></li>
+<li><a href="#43-riesgo-de-interrupciones-por-agotamiento-de-cuotas">Riesgo de interrupciones por agotamiento de cuotas</a></li>
+<li><a href="#44-resumen-mensual-de-demanda-cuotas">Resumen mensual de demanda (cuotas)</a></li>
+</ul>
+</li>
+<li><a href="#5-tco">TCO</a>
+<ul>
+<li><a href="#51-opex">OpEx</a></li>
+<li><a href="#52-capex">CapEx</a></li>
+<li><a href="#53-estimaci%C3%B3n-de-costos-tco">Estimación de Costos (TCO)</a></li>
+<li><a href="#55-an%C3%A1lisis-de-riesgos-de-operacion-y-mantenimiento">Analisis de riesgos</a></li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-introducción">1. Introducción<a href="#1-introducción" class="hash-link" aria-label="Enlace directo al 1. Introducción" title="Enlace directo al 1. Introducción">​</a></h2>
+<p>El presente informe técnico se elabora en el marco del proyecto PSG2-2425-G5-53, y se enfoca en la gestión de la demanda y la capacidad del SaaS PetClinic. El objetivo principal de este documento es analizar y estimar la capacidad necesaria para el servicio PetClinic y su servicio de soporte asociado, identificar los riesgos potenciales relacionados con la capacidad y las dependencias externas, y estimar el Coste Total de Propiedad (TCO).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-estimación-de-la-demanda">2. Estimación de la demanda<a href="#2-estimación-de-la-demanda" class="hash-link" aria-label="Enlace directo al 2. Estimación de la demanda" title="Enlace directo al 2. Estimación de la demanda">​</a></h2>
+<p>Este apartado presenta una estimación de la demanda tanto del servicio de soporte humano como de los recursos materiales necesarios para operar PetClinic, considerando las condiciones y el ecosistema definidos para el proyecto PSG2-2425-G5-53 durante un período de 24 meses.</p>
+<p>La demanda del servicio de soporte se estima en función del volumen esperado de interacciones con los usuarios, principalmente a través de incidentes y solicitudes, y se ve fuertemente condicionada por los Acuerdos de Nivel de Servicio (SLA) definidos para los distintos planes de usuario.</p>
+<p>Consideramos los siguientes datos:</p>
+<ul>
+<li>
+<p>Duración del Contrato: 24 meses.</p>
+</li>
+<li>
+<p>Usuarios Activos: 10.000 usuarios Basic, 5.000 usuarios Gold y 3.000  usuarios Platinum.</p>
+</li>
+<li>
+<p>Promedio Mensual de Interacciones: 120 incidentes y 100 solicitudes.</p>
+</li>
+<li>
+<p>Ecosistema DevOps de Soporte: Se considera el soporte dentro del ecosistema de desarrollo y operación descrito, asumiendo el uso de planes no gratuitos para los servicios dependientes.  </p>
+</li>
+</ul>
+<p>La demanda total esperada asciende a un promedio de <code>120 incidentes/mes+100 solicitudes/mes=220 tickets mensuales</code>. En 24 meses, esto suma un total estimado de <code>220 tickets/mes×24 meses=5.280 tickets</code>.</p>
+<p>Basándonos en la distribución de incidencias y peticiones de servicios que se han recibido, y mapeando la urgencia de las solicitudes a la prioridad de los incidentes, tenemos la siguiente estimación del volumen mensual de tickets por categoría y nivel de usuario:</p>
+<ul>
+<li>
+<p><strong>Usuarios Gold (5000 usuarios - 62,5% de G+P ):</strong></p>
+<ul>
+<li>Prioridad Baja: 74 tickets/mes (27 solicitudes + 47 incidencias)</li>
+<li>Prioridad Media: 11 tickets/mes (9 solicitudes + 2 incidencias)</li>
+<li>Prioridad Alta: 53 tickets/mes (27 solicitudes + 26 incidencias)</li>
+</ul>
+</li>
+<li>
+<p><strong>Usuarios Platinum (3000 usuarios - 37,5% de G+P):</strong></p>
+<ul>
+<li>Prioridad Baja: 44 tickets/mes (16 solicitudes + 28 incidencias)</li>
+<li>Prioridad Media: 6 tickets/mes (5 solicitudes + 1 incidencia)</li>
+<li>Prioridad Alta: 31 tickets/mes (16 solicitudes + 15 incidencias)</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="21-demanda-de-recursos-humanos">2.1 Demanda de Recursos Humanos<a href="#21-demanda-de-recursos-humanos" class="hash-link" aria-label="Enlace directo al 2.1 Demanda de Recursos Humanos" title="Enlace directo al 2.1 Demanda de Recursos Humanos">​</a></h3>
+<p>El dimensionamiento del equipo de soporte está impulsado por la necesidad de cumplir con los objetivos de TTR y TTO  definidos en el Customer Agreement para los usuarios Gold y Platinum, así como la necesidad de asegurar la cobertura durante los horarios de soporte comprometidos.</p>
+<p>Para dimensionar el equipo, necesitamos estimar la carga de trabajo que representa cada ticket en términos del tiempo activo que un técnico dedica a él. Realizamos suposiciones razonables sobre el AHT (Average Handling Time) basándonos en la prioridad:</p>
+<ul>
+<li>
+<p>Tickets P1 (Alta): Asumimos un AHT de 4 horas. Requieren atención rápida y experta.</p>
+</li>
+<li>
+<p>Tickets P2 (Media): Asumimos un AHT de 2 horas. Complejidad moderada.</p>
+</li>
+<li>
+<p>Tickets P3 (Baja): Asumimos un AHT de 1 horas. Problemas o solicitudes sencillas.</p>
+</li>
+</ul>
+<p>Calculamos la carga de trabajo mensual total en &quot;horas de técnico&quot; requeridas para atender el volumen de tickets de Gold y Platinum:</p>
+<ul>
+<li>
+<p><strong>Carga de trabajo mensual - Gold:</strong></p>
+<ul>
+<li>
+<p>P1: 53 tickets * 4 horas/ticket = 212 horas</p>
+</li>
+<li>
+<p>P2: 11 tickets * 2 horas/ticket = 22 horas</p>
+</li>
+<li>
+<p>P3: 74 tickets * 1 hora/ticket = 74 horas</p>
+</li>
+<li>
+<p>Total carga Gold: 212 + 22 + 24 = <strong>308 horas/mes</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Carga de trabajo mensual - Platinum:</strong></p>
+<ul>
+<li>
+<p>P1: 31 tickets * 4 horas/ticket = 124 horas</p>
+</li>
+<li>
+<p>P2: 6 tickets * 2 horas/ticket = 12 horas</p>
+</li>
+<li>
+<p>P3: 44 tickets * 1 hora/ticket = 44 horas</p>
+</li>
+<li>
+<p>Total carga Gold: 212 + 22 + 24 = <strong>180 horas/mes</strong></p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Carga de trabajo mensual total (Gold + Plainum): 308 + 180 = 488 horas/mes</strong> de trabajo activo de técnico.</p>
+<p>A continuación, la convertimos a equivalentes a tiempo completo, FTE (Full-Time Equivalent), considerando la capacidad productiva de un técnico. Si asumimos que un técnico productivo dedica aproximadamente 160 horas al mes a trabajar en tickets:</p>
+<ul>
+<li><strong>FTEs basados en Carga de trabajo:</strong> 488 horas/mes / 160 horas/FTE ≈ <strong>3.05 FTEs</strong>.</li>
+</ul>
+<p>Sin embargo, este cálculo solo considera el volumen de trabajo. La necesidad de cumplir con los TTO y TTR y asegurar la disponibilidad del servicio incrementa el número de personal necesario más allá de la simple carga de trabajo. Para asegurar que las incidencias y solicitudes de servicio se asignen y resuelvan a tiempo, debe haber personal disponible y con las habilidades necesarias en el momento en que llega el ticket, lo que requiere una cobertura continua y suficiente personal en cada turno.</p>
+<p>Para estimar el número total de técnicos, debemos combinar la carga de trabajo con los requisitos de disponibilidad de servicio.</p>
+<p>Una estimación realista del número de técnicos necesarios para garantizar el cumplimiento de los SLA y la cobertura podría estar entre 4 y 6 técnicos a tiempo completo, dependiendo de cómo se estructuren los turnos, los niveles de habilidad del personal, y la asunción de picos de demanda por encima del promedio. Un equipo de 6 personas, como el tamaño actual del proyecto, podría ser un punto de partida.</p>
+<p>Las solicitudes e incidentes de los usuarios Basic serán gestionados con la capacidad excedente disponible, sin SLA garantizados, lo que podría resultar en tiempos de respuesta y resolución más largos para este grupo si la carga de Gold y Platinum es alta.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="22-demanda-de-recursos-materiales">2.2 Demanda de Recursos Materiales<a href="#22-demanda-de-recursos-materiales" class="hash-link" aria-label="Enlace directo al 2.2 Demanda de Recursos Materiales" title="Enlace directo al 2.2 Demanda de Recursos Materiales">​</a></h3>
+<p>Para proyectar la demanda total de recursos materiales (CPU, memoria, capacidad de base de datos, ancho de banda, etc.), seguimos un proceso que combina el conocimiento de la base de usuarios y el consumo de recursos por operación:</p>
+<ol>
+<li>
+<p><strong>Análisis de la frecuencia de Uso de las APIs por Usuario y Nivel:</strong></p>
+<p>Los datos de registro de llamadas a la API proporcionan una muestra real de cuántas veces se llamó a cada API por parte de usuarios de cada nivel en un período de tiempo específico (en este caso, un día). Analizando este registro, podemos obtener una frecuencia de uso observada por API y por nivel de usuario durante ese día:</p>
+<ul>
+<li>
+<p><code>/api/v1/pets</code> (GET, BASIC): 1 llamada</p>
+</li>
+<li>
+<p><code>/api/v1/pets/{id}</code> (GET, BASIC): 2 llamadas</p>
+</li>
+<li>
+<p><code>/api/v1/pets/types</code> (GET, BASIC): 3 llamadas</p>
+</li>
+<li>
+<p><code>/api/v1/pets/{id}</code> (POST, BASIC): 3 llamadas (URI <code>/api/v1/pets/1</code> con método POST y Identifier <code>/api/v1/pets/_POST_BASIC</code>)</p>
+</li>
+<li>
+<p><code>/api/v1/pets/{id}</code> (DELETE, GOLD): 2 llamadas (URI <code>/api/v1/pets/{id}</code> con método DELETE y Identifier <code>/api/v1/pets/{id}_DELETE_GOLD</code>)</p>
+</li>
+<li>
+<p><code>/api/v1/vets/vademe/vaccum/illnesses</code> (GET, GOLD): 1 llamada</p>
+</li>
+<li>
+<p><code>/api/v1/vets</code> (GET, GOLD): 1 llamada</p>
+</li>
+<li>
+<p><code>/api/v1/pets/{id}</code> (POST, GOLD): 2 llamadas (URI <code>/api/v1/pets/1</code> con método POST y Identifier <code>/api/v1/pets/_POST_GOLD</code>)</p>
+</li>
+<li>
+<p><code>/api/v1/pets/{id}</code> (DELETE, PLATINUM): 1 llamada (URI <code>/api/v1/pets/{id}</code> con método DELETE y Identifier <code>/api/v1/pets/{id}_DELETE_PLATINUM</code>)</p>
+</li>
+<li>
+<p><code>/api/v1/pets/{id}</code> (GET, PLATINUM): 3 llamadas</p>
+</li>
+<li>
+<p><code>/api/v1/pets/types</code> (GET, PLATINUM): 5 llamadas</p>
+</li>
+<li>
+<p><code>/api/v1/vets/vademe/vaccum/illnesses</code> (GET, PLATINUM): 2 llamadas</p>
+</li>
+<li>
+<p><code>/api/v1/consultations/pets/GET_PLATINUM</code> (GET, PLATINUM): 2 llamadas (Identifier <code>/api/v1/consultations/_GET_PLATINUM_TICKETS_G</code>)</p>
+</li>
+<li>
+<p><code>/api/v1/consultations/pets/_POST_PLATINUM</code> (POST, PLATINUM): 3 llamadas (Identifier <code>/api/v1/consultations/_POST_PLATINUM_TICKETS_G</code>)</p>
+</li>
+<li>
+<p><code>/api/v1/visit/api/v1/pets/{id}/visits</code> (POST, PLATINUM): 2 llamadas (Identifier <code>/api/v1/visit/_POST_PLATINUM_TICKETS_P</code>)</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Proyección de la Carga Total del Sistema:</strong></p>
+<p>Se calcularía el consumo total de CPU y memoria por cada API y nivel de usuario multiplicando el consumo promedio por llamada por el número total esperado de llamadas a esa API por parte de todos los usuarios de ese nivel en un mes <strong>frecuencia observada diaria * número de días en un mes * número de usuarios por nivel / número de usuarios que generaron el log</strong>.</p>
+<p>Sumando el consumo de todas las APIs y niveles, se obtiene la carga total mensual proyectada de CPU y memoria que la infraestructura debe soportar.</p>
+</li>
+<li>
+<p><strong>Determinación de la Infraestructura Necesaria (Refinada por SLA de Rendimiento y Disponibilidad):</strong></p>
+<p>Con las estimaciones de carga total más precisas (CPU, Memoria) y considerando los requisitos de rendimiento y disponibilidad (SLA), podemos dimensionar la infraestructura material</p>
+<ul>
+<li>
+<p>Los SLA de TRT (500 ms para Gold, 300 ms para Platinum) requieren que la infraestructura pueda procesar las solicitudes dentro de esos tiempos. La estimación debe asegurar que la infraestructura dimensionada permita cumplir estos TRT bajo la carga máxima esperada.</p>
+</li>
+<li>
+<p>Los SLA de disponibilidad (99.5% y 99.9%) demandan múltiples instancias de servidores de aplicación y base de datos, balanceadores de carga, etc., lo que incrementa la cantidad de recursos materiales necesarios.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Recursos del Ecosistema DevOps:</strong></p>
+<p>Además de la infraestructura de la aplicación principal, se deben estimar los recursos materiales para otros componentes del ecosistema DevOps (base de datos, monitorización, CI/CD) operando con planes no gratuitos.</p>
+</li>
+</ol>
+<p>Para realizar la estimación de la demanda de recursos materiales, primero es necesario calcular la frecuencia de uso de las APIs por nivel de usuario. Al combinar esta frecuencia con los datos de rendimiento por operación y el número total de usuarios, se puede proyectar una carga total más precisa de CPU y memoria.</p>
+<p>Esta carga, junto con los SLA de disponibilidad y TRT para usuarios Gold y Platinum, determinará la cantidad y el tipo de infraestructura necesaria (servidores, base de datos, red), requiriendo probablemente redundancia y componentes de alto rendimiento.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-apis-externas-utilizadas">3. Apis Externas utilizadas<a href="#3-apis-externas-utilizadas" class="hash-link" aria-label="Enlace directo al 3. Apis Externas utilizadas" title="Enlace directo al 3. Apis Externas utilizadas">​</a></h2>
+<table><thead><tr><th>Duración del contrato</th><th>24 meses</th></tr></thead><tbody><tr><td>Usuarios activos</td><td>Básico: 10 000 Gold: 5 000</td></tr><tr><td>Incidentes promedio mensuales</td><td>120</td></tr><tr><td>Solicitudes de servicio mensuales</td><td>100</td></tr><tr><td>Total de usuarios activos</td><td>18 000</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="31--dog-api">3.1 🐶 Dog API<a href="#31--dog-api" class="hash-link" aria-label="Enlace directo al 3.1 🐶 Dog API" title="Enlace directo al 3.1 🐶 Dog API">​</a></h3>
+<p>Uso: Mostrar razas de perros, datos y curiosidades.</p>
+<p>Límite: 60 peticiones por minuto por cliente.</p>
+<p>Restricción importante: Solo uso personal/no comercial.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="32--petfinder-api">3.2 🐾 Petfinder API<a href="#32--petfinder-api" class="hash-link" aria-label="Enlace directo al 3.2 🐾 Petfinder API" title="Enlace directo al 3.2 🐾 Petfinder API">​</a></h3>
+<p>Uso: Mostrar mascotas disponibles, buscar refugios u organizaciones asociadas.</p>
+<p>Límite: 1000 llamadas por día y 50 peticiones por minuto.</p>
+<p>Acceso: Requiere autenticación (OAuth2).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-estimación-de-demanda-mensual-de-las-apis">4. Estimación de demanda mensual de las APIs<a href="#4-estimación-de-demanda-mensual-de-las-apis" class="hash-link" aria-label="Enlace directo al 4. Estimación de demanda mensual de las APIs" title="Enlace directo al 4. Estimación de demanda mensual de las APIs">​</a></h2>
+<p>Dog API: Cada usuario accede 1 vez por semana → 4 llamadas al mes.</p>
+<p>Petfinder API: Cada usuario consulta 2 veces al mes.</p>
+<table><thead><tr><th>API</th><th>Cálculo mensual</th><th>Llamadas mensuales estimadas</th></tr></thead><tbody><tr><td>Dog API</td><td>18,000 usuarios × 4 llamadas</td><td>72,000</td></tr><tr><td>Petfinder API</td><td>18,000 usuarios × 2 llamadas</td><td>36,000</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="41-tasas-y-cuotas-mensuales">4.1. Tasas y cuotas mensuales<a href="#41-tasas-y-cuotas-mensuales" class="hash-link" aria-label="Enlace directo al 4.1. Tasas y cuotas mensuales" title="Enlace directo al 4.1. Tasas y cuotas mensuales">​</a></h3>
+<table><thead><tr><th>API</th><th>Límite actual</th><th>Demanda estimada</th><th>¿Se excede?</th><th>Acción requerida</th></tr></thead><tbody><tr><td>Dog API</td><td>60/min (~86,400/día)</td><td>~2,400/día</td><td>Riesgo moderado</td><td>Contactar para clave comercial</td></tr><tr><td>Petfinder API</td><td>1000/día</td><td>~1,200/día</td><td>Si</td><td>Contactar para ampliar límites</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="42-ecosistema-devops-y-soporte">4.2. Ecosistema DevOps y soporte<a href="#42-ecosistema-devops-y-soporte" class="hash-link" aria-label="Enlace directo al 4.2. Ecosistema DevOps y soporte" title="Enlace directo al 4.2. Ecosistema DevOps y soporte">​</a></h3>
+<p>Gestión de eventos de monitoreo y logs (por incidentes/solicitudes):</p>
+<p>(120 + 100) × 5 logs/evento = 1,100 eventos/mes</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="43-riesgo-de-interrupciones-por-agotamiento-de-cuotas">4.3. Riesgo de interrupciones por agotamiento de cuotas<a href="#43-riesgo-de-interrupciones-por-agotamiento-de-cuotas" class="hash-link" aria-label="Enlace directo al 4.3. Riesgo de interrupciones por agotamiento de cuotas" title="Enlace directo al 4.3. Riesgo de interrupciones por agotamiento de cuotas">​</a></h3>
+<table><thead><tr><th>API</th><th>Riesgo de interrupción</th><th>Causa</th><th>Consecuencias para Petclinic</th></tr></thead><tbody><tr><td>Dog API</td><td>Medio-Alto</td><td>Límite de 60 peticiones por minuto, uso no comercial</td><td>Fallos al cargar datos de razas</td></tr><tr><td>Petfinder API</td><td>Alto</td><td>Límite de 1000 peticiones al día</td><td>Carga lenta o pérdida de información externa para adoptar mascotas</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="44-resumen-mensual-de-demanda-cuotas">4.4. Resumen mensual de demanda (cuotas)<a href="#44-resumen-mensual-de-demanda-cuotas" class="hash-link" aria-label="Enlace directo al 4.4. Resumen mensual de demanda (cuotas)" title="Enlace directo al 4.4. Resumen mensual de demanda (cuotas)">​</a></h3>
+<table><thead><tr><th>API</th><th>Llamadas/mes</th><th>Límite estimado</th></tr></thead><tbody><tr><td>Dog API</td><td>72,000</td><td>~86,400/día</td></tr><tr><td>Petfinder API</td><td>36,000</td><td>30,000/mes</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-tco">5. TCO<a href="#5-tco" class="hash-link" aria-label="Enlace directo al 5. TCO" title="Enlace directo al 5. TCO">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="51-opex">5.1. OpEx<a href="#51-opex" class="hash-link" aria-label="Enlace directo al 5.1. OpEx" title="Enlace directo al 5.1. OpEx">​</a></h3>
+<p>Distribución mensual de tickets (Gold + Platinum):</p>
+<table><thead><tr><th>Plan / Prioridad</th><th>Baja (P3)</th><th>Media (P2)</th><th>Alta (P1)</th><th>Total tickets</th><th>Horas/mes</th></tr></thead><tbody><tr><td>Gold</td><td>74</td><td>11</td><td>53</td><td>138</td><td>308</td></tr><tr><td>Platinum</td><td>44</td><td>6</td><td>31</td><td>81</td><td>180</td></tr><tr><td><strong>Total</strong></td><td>118</td><td>17</td><td>84</td><td>219</td><td><strong>488</strong></td></tr></tbody></table>
+<ul>
+<li><strong>FTEs sin buffer</strong> = 488 h ÷ 160 h/FTE ≈ <strong>3,05 FTE</strong></li>
+</ul>
+<p>Aquí partimos de que el equipo de soporte acumula 488 horas de trabajo al mes. Un FTE (“Full-Time Equivalent”) estándar se asume en 160 horas de trabajo productivo al mes (aproximadamente 40 h/semana × 4 semanas). Dividiendo las 488 h entre 160 h/FTE obtenemos 3,05, es decir, necesitas el equivalente a 3,05 personas a tiempo completo para cubrir la carga de 488 h.</p>
+<ul>
+<li><strong>Buffer pico (20%)</strong> → 3,05 × 1,20 ≈ <strong>3,66 FTE</strong></li>
+</ul>
+<p>Los picos de demanda requieren tener un margen de seguridad (como del 20%). Añadimos el 20% adicional sobre los 3,05 FTE para asegurarnos de poder absorber esos picos sin colapsar el servicio.</p>
+<ul>
+<li><strong>FTE recomendado</strong>: <strong>4 técnicos</strong> mínimos.</li>
+</ul>
+<p>Esto es porque ambos calculos superan el numero 3 de tecnicos, y 4 son justos para ambas situaciones.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="52-capex">5.2. CapEx<a href="#52-capex" class="hash-link" aria-label="Enlace directo al 5.2. CapEx" title="Enlace directo al 5.2. CapEx">​</a></h3>
+<p>Suponemos los siguientes datos de la infraestructura SaaS:</p>
+<table><thead><tr><th>Recurso</th><th>Demanda diaria</th><th>Capacidad unitaria</th><th>Instancias mínimas</th><th>Con redundancia (20%)</th></tr></thead><tbody><tr><td>CPU/RAM</td><td>10 000 transac./día</td><td>1 000 transac./inst/día</td><td>10</td><td>12</td></tr><tr><td>Storage</td><td>500 GB/mes</td><td>50 GB/instancia</td><td>10</td><td>12</td></tr><tr><td>Ancho de banda</td><td>2 TB/mes</td><td>0,2 TB/instancia</td><td>10</td><td>12</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="53-estimación-de-costos-tco">5.3. Estimación de Costos (TCO)<a href="#53-estimación-de-costos-tco" class="hash-link" aria-label="Enlace directo al 5.3. Estimación de Costos (TCO)" title="Enlace directo al 5.3. Estimación de Costos (TCO)">​</a></h2>
+<p><strong>Supuestos semestrales de variación:</strong></p>
+<ul>
+<li>APIs externas, servicios: ±2%–10%</li>
+<li>Salarios: ±0,5%–3%</li>
+</ul>
+<table><thead><tr><th>Elemento</th><th>Costo Base</th><th>Variación</th><th>Costo Ajustado Anual</th><th>Notas</th></tr></thead><tbody><tr><td><strong>Soporte Humano</strong></td><td></td><td></td><td></td><td></td></tr><tr><td>- 4 FTE</td><td>€200 000</td><td>+1,5%</td><td>€203 000</td><td>Incluye formación y rotación</td></tr><tr><td>- Infraestructura interna</td><td>€20 000</td><td>+5%</td><td>€21 000</td><td>Licencias, hardware</td></tr><tr><td>- Herramientas y APIs</td><td>€15 000</td><td>+3%</td><td>€15 450</td><td>Planes no gratuitos</td></tr><tr><td><strong>PetClinic SaaS</strong></td><td></td><td></td><td></td><td></td></tr><tr><td>- Infraestructura Cloud (12 inst)</td><td>€50 000</td><td>+4%</td><td>€52 000</td><td>Compute, storage, red</td></tr><tr><td>- APIs y servicios terceros</td><td>€30 000</td><td>+6%</td><td>€31 800</td><td></td></tr><tr><td>- Operación y Mantenimiento (O&amp;M)</td><td>€25 000</td><td>+2%</td><td>€25 500</td><td>Soporte de actualizaciones</td></tr><tr><td><strong>TCO Anual Total</strong></td><td></td><td></td><td><strong>€348 750</strong></td><td></td></tr></tbody></table>
+<p>Para 24 meses seria aproximadamente = 348 750 x 2 ≈ <strong>697 500€</strong>.
+El TCO durante 12 meses es de <strong>348 750€</strong>, con un CapEx de <strong>109 300€</strong> y un OpEx de <strong>239 450€</strong>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="54-cálculo-de-tco-mensual-y-precio-objetivo">5.4. Cálculo de TCO Mensual y Precio Objetivo<a href="#54-cálculo-de-tco-mensual-y-precio-objetivo" class="hash-link" aria-label="Enlace directo al 5.4. Cálculo de TCO Mensual y Precio Objetivo" title="Enlace directo al 5.4. Cálculo de TCO Mensual y Precio Objetivo">​</a></h2>
+<ol>
+<li><strong>TCO Mensual</strong> = €348 750 / 12 ≈ <strong>€29 062,50</strong></li>
+<li><strong>Precio objetivo</strong> = TCO anual × 1,15 ≈ <strong>€401 062,50</strong></li>
+</ol>
+<p>El precio objetivo nos garantiza al menos un 15% de beneficio.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="55-análisis-de-riesgos-de-operacion-y-mantenimiento">5.5. Análisis de Riesgos de Operacion y Mantenimiento<a href="#55-análisis-de-riesgos-de-operacion-y-mantenimiento" class="hash-link" aria-label="Enlace directo al 5.5. Análisis de Riesgos de Operacion y Mantenimiento" title="Enlace directo al 5.5. Análisis de Riesgos de Operacion y Mantenimiento">​</a></h2>
+<table><thead><tr><th>Riesgo</th><th>Impacto</th><th>Probabilidad</th><th>Estrategia de mitigación</th></tr></thead><tbody><tr><td>Sobrecarga de soporte</td><td>Alto</td><td>Media</td><td>Añadir un FTE extra o turnos flexibles para repartir la carga</td></tr><tr><td>Saltos de precio en APIs</td><td>Medio-Alto</td><td>Alta</td><td>Pactar contratos semestrales o anuales con cláusulas con un tope máximo de subida</td></tr><tr><td>Variación salarial elevada</td><td>Medio</td><td>Baja</td><td>Incluir cláusulas de revisión salarial en los contratos de trabajo</td></tr></tbody></table></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/luciaponce-us/psg2-2425-g5-3-docusaurus/docs/Sprint 3/Análisis de la capacidad y el riesgo de Petclinic Services (PSG2-2425-G3-53).md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Editar esta página</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Página del documento"><a class="pagination-nav__link pagination-nav__link--prev" href="/psg2-2425-g5-3-docusaurus/docs/sprint3/reunion3"><div class="pagination-nav__sublabel">Anterior</div><div class="pagination-nav__label">Weekly Stand-Up Meeting 3</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/psg2-2425-g5-3-docusaurus/docs/sprint3/monitorizacion-AC"><div class="pagination-nav__sublabel">Siguiente</div><div class="pagination-nav__label">Monitorización del Acuerdo de Cliente</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#historial-de-versiones" class="table-of-contents__link toc-highlight">Historial de versiones</a></li><li><a href="#índice" class="table-of-contents__link toc-highlight">Índice</a></li><li><a href="#1-introducción" class="table-of-contents__link toc-highlight">1. Introducción</a></li><li><a href="#2-estimación-de-la-demanda" class="table-of-contents__link toc-highlight">2. Estimación de la demanda</a><ul><li><a href="#21-demanda-de-recursos-humanos" class="table-of-contents__link toc-highlight">2.1 Demanda de Recursos Humanos</a></li><li><a href="#22-demanda-de-recursos-materiales" class="table-of-contents__link toc-highlight">2.2 Demanda de Recursos Materiales</a></li></ul></li><li><a href="#3-apis-externas-utilizadas" class="table-of-contents__link toc-highlight">3. Apis Externas utilizadas</a><ul><li><a href="#31--dog-api" class="table-of-contents__link toc-highlight">3.1 🐶 Dog API</a></li><li><a href="#32--petfinder-api" class="table-of-contents__link toc-highlight">3.2 🐾 Petfinder API</a></li></ul></li><li><a href="#4-estimación-de-demanda-mensual-de-las-apis" class="table-of-contents__link toc-highlight">4. Estimación de demanda mensual de las APIs</a><ul><li><a href="#41-tasas-y-cuotas-mensuales" class="table-of-contents__link toc-highlight">4.1. Tasas y cuotas mensuales</a></li><li><a href="#42-ecosistema-devops-y-soporte" class="table-of-contents__link toc-highlight">4.2. Ecosistema DevOps y soporte</a></li><li><a href="#43-riesgo-de-interrupciones-por-agotamiento-de-cuotas" class="table-of-contents__link toc-highlight">4.3. Riesgo de interrupciones por agotamiento de cuotas</a></li><li><a href="#44-resumen-mensual-de-demanda-cuotas" class="table-of-contents__link toc-highlight">4.4. Resumen mensual de demanda (cuotas)</a></li></ul></li><li><a href="#5-tco" class="table-of-contents__link toc-highlight">5. TCO</a><ul><li><a href="#51-opex" class="table-of-contents__link toc-highlight">5.1. OpEx</a></li><li><a href="#52-capex" class="table-of-contents__link toc-highlight">5.2. CapEx</a></li></ul></li><li><a href="#53-estimación-de-costos-tco" class="table-of-contents__link toc-highlight">5.3. Estimación de Costos (TCO)</a></li><li><a href="#54-cálculo-de-tco-mensual-y-precio-objetivo" class="table-of-contents__link toc-highlight">5.4. Cálculo de TCO Mensual y Precio Objetivo</a></li><li><a href="#55-análisis-de-riesgos-de-operacion-y-mantenimiento" class="table-of-contents__link toc-highlight">5.5. Análisis de Riesgos de Operacion y Mantenimiento</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/psg2-2425-g5-3-docusaurus/docs/historial">Docs</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/psg2-2425-g5-3-docusaurus/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Pet Clinic, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
